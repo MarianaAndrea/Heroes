@@ -7,7 +7,6 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './heroe.component.html'
 })
 export class HeroeComponent {
-
   heroe: any = {};
 
   constructor(private activatedRoute: ActivatedRoute,
